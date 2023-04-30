@@ -7,7 +7,7 @@ from telegram import ReplyKeyboardMarkup
 from config import BOT_TOKEN, CURS_REQUEST
 import schedule
 
-# Выполняем запрос.
+# Выполняем запрос:
 response = requests.get(CURS_REQUEST)
 # Преобразуем ответ в json-объект
 json_response = response.json()
